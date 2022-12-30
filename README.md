@@ -12,7 +12,7 @@ A Fullstack Airport Viewer that allows a user to upload a CSV containing their f
 * [Final Thoughts/Room for Improvement](#final-thoughtsroom-for-improvement-)
 
 ## General Info 📝
-For simplicity, both the backend and front end will be contained in the same GitHub. If this were a larger project I would most definitely separate the Front and Backend.\
+For simplicity, both the backend and front end will be contained in the same GitHub. If this were a larger project I would most definitely separate the Front and Backend.
 
 Time Spent:
 * Design Doc/Planning: 1 hour
