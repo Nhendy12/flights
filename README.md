@@ -36,12 +36,22 @@ React Libraries:
 
 ## Screenshots 📸
 
-![Screenshot](Screenshot(29).png)
-![Screenshot](Screenshot(30).png)
 ![Screenshot](Screenshot(31).png)
+* Base page
 ![Screenshot](Screenshot(32).png)
+* After you upload a csv successfully this text will appear with a link to view your map
+
 ![Screenshot](Screenshot(33).png)
+* A map with 1 airport from this [sample data](./flight-viewer/sample-data/sample-data-1.csv)
+
+![Screenshot](Screenshot(29).png)
+* A map with 4 airports from this [sample data](./flight-viewer/sample-data/sample-data-2.csv)
+
 ![Screenshot](Screenshot(34).png)
+* Info window for a clicked airport
+
+![Screenshot](Screenshot(30).png)
+* When you upload a csv with 8107 airports, things get a little messy
 
 ## Setup ⚙️
 To clone and run this application, you'll need [Git](https://git-scm.com), [Ruby on Rails](https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm), and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
