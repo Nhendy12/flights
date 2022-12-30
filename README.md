@@ -35,12 +35,12 @@ React Libraries:
 * Shareable public map
 
 ## Screenshots 📸
-![Screenshot](Screenshot29.png)
-![Screenshot](Screenshot30.png)
-![Screenshot](Screenshot31.png)
-![Screenshot](Screenshot32.png)
-![Screenshot](Screenshot33.png)
-![Screenshot](Screenshot34.png)
+![Screenshot](\Screenshot29.png)
+![Screenshot](\Screenshot30.png)
+![Screenshot](\Screenshot31.png)
+![Screenshot](\Screenshot32.png)
+![Screenshot](\Screenshot33.png)
+![Screenshot](\Screenshot34.png)
 
 ## Setup ⚙️
 To clone and run this application, you'll need [Git](https://git-scm.com), [Ruby on Rails](https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm), and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
@@ -75,19 +75,9 @@ $ npm start
 ```
 
 ## Final Thoughts/Things to tell Client 🔔
-I really enjoyed working on this project and I loved the pokemon aspect that added that personal touch!\
-It definitely helped me brush up on my React skills and I think in the future I will be adding more to this project!
 
 Possibly move to worker if files are too big
 
 
-Items I missed/would have done with more time:
-* Better form validation
-* Getting the forms to closer match the designs
-* Fixing inheritances, right now when you create or update a pokemon it just refreshes the page. I would have liked it to instead just rerender the list of pokemon
-* Add tests
-* Loading States
-* Empty States
-* demo
-* API docs
-* File structure/css organization
+* 
+
