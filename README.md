@@ -9,7 +9,7 @@ A Fullstack Airport Viewer that allows a user to upload a CSV containing their f
 * [Screenshots](#screenshots-)
 * [Setup](#setup-%EF%B8%8F)
 * [Usage](#usage-)
-* [Final Thoughts/Room for Improvement](#final-thoughtsthings-to-share-with-client-)
+* [Final Thoughts/Things to share with Client](#final-thoughtsthings-to-share-with-client-)
 
 ## General Info 📝
 For simplicity, both the backend and front end will be contained in the same GitHub. If this were a larger project I would most definitely separate the Front and Backend.
