@@ -15,9 +15,12 @@ A Fullstack Airport Viewer that allows a user to upload a CSV containing their f
 For simplicity, both the backend and front end will be contained in the same GitHub. If this were a larger project I would most definitely separate the Front and Backend.\
 Time Spent:
 * Design Doc/Planning: 1 hour
-* Design Doc/Planning: 1 hour
-* Design Doc/Planning: 1 hour
-* Design Doc/Planning: 1 hour
+* Messing Google Cloud Billing/Troubleshooting to get Google Maps working : 1.5 hours
+* Frontend: 3.5 hours
+* Backend: 2 hours
+* README: .75 hours
+
+* TOTAL: 8.75 hours
 
 \
 [Here is a link](DESIGN_DOC.pdf) to the design doc that helped guide me through the project.
@@ -38,7 +41,7 @@ React Libraries:
 
 ## Features 🎯
 * Import CSV with aiport data
-* Shareable public map
+* Shareable public map with unique ID
 
 ## Screenshots 📸
 
@@ -92,10 +95,11 @@ $ npm install
 $ npm start
 ```
 
-## Final Thoughts/Things to tell Client 🔔
+## Final Thoughts/Things to share with Client 🔔
 
-Possibly move to worker if files are too big
+* Add clustering of points so the map isn't messy when there is a ton of airports
+* Ask for exact colors rgb's (I tried to match it as close as I could)
+* Possibly move to csv parser to a worker if files are too big. I would ask the client for expected file sizes
+* There is no error handling if uploaded csv is not the expected format
 
-
-* 
 
