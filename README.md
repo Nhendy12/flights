@@ -37,11 +37,11 @@ React Libraries:
 ## Screenshots 📸
 
 ![Screenshot](Screenshot(29).png)
-![Screenshot](Screenshot(29).png)
-![Screenshot](Screenshot(29).png)
-![Screenshot](Screenshot(29).png)
-![Screenshot](Screenshot(29).png)
-![Screenshot](Screenshot(29).png)
+![Screenshot](Screenshot(30).png)
+![Screenshot](Screenshot(31).png)
+![Screenshot](Screenshot(32).png)
+![Screenshot](Screenshot(33).png)
+![Screenshot](Screenshot(34).png)
 
 ## Setup ⚙️
 To clone and run this application, you'll need [Git](https://git-scm.com), [Ruby on Rails](https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm), and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
