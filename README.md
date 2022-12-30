@@ -35,12 +35,13 @@ React Libraries:
 * Shareable public map
 
 ## Screenshots 📸
-![Screenshot](\Screenshot29.png)
-![Screenshot](\Screenshot30.png)
-![Screenshot](\Screenshot31.png)
-![Screenshot](\Screenshot32.png)
-![Screenshot](\Screenshot33.png)
-![Screenshot](\Screenshot34.png)
+
+![Screenshot](Screenshot(29).png)
+![Screenshot](Screenshot(29).png)
+![Screenshot](Screenshot(29).png)
+![Screenshot](Screenshot(29).png)
+![Screenshot](Screenshot(29).png)
+![Screenshot](Screenshot(29).png)
 
 ## Setup ⚙️
 To clone and run this application, you'll need [Git](https://git-scm.com), [Ruby on Rails](https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm), and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
