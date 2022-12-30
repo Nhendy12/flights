@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_12_30_082202) do
+ActiveRecord::Schema[7.0].define(version: 2022_12_30_193710) do
   create_table "airports", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -20,12 +20,11 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_30_082202) do
     t.string "county"
     t.string "IATA_FAA"
     t.string "ICAO"
-    t.string "lat"
-    t.string "long"
+    t.decimal "lat", precision: 10, scale: 6, default: "0.0", null: false
+    t.decimal "long", precision: 10, scale: 6, default: "0.0", null: false
     t.string "altitude"
     t.string "timezone"
     t.integer "map_id"
-    t.index ["aiport_id"], name: "index_airports_on_aiport_id", unique: true
     t.index ["map_id"], name: "index_airports_on_map_id"
   end
 
