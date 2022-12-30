@@ -1,24 +1,93 @@
-# README
+# Flights
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Fullstack Airport Viewer that allows a user to upload a CSV containing their favorite airports built with React and Ruby on Rails.
 
-Things you may want to cover:
+## Table of Contents 📖
+* [General Info](#general-info-)
+* [Built With](#built-with-%EF%B8%8F)
+* [Features](#features-)
+* [Screenshots](#screenshots-)
+* [Setup](#setup-%EF%B8%8F)
+* [Usage](#usage-)
+* [Final Thoughts/Room for Improvement](#final-thoughtsroom-for-improvement-)
 
-* Ruby version
+## General Info 📝
+For simplicity, both the backend and front end will be contained in the same GitHub. If this were a larger project I would most definitely separate the Front and Backend.\
+\
+[Here is a link](DESIGN_DOC.pdf) to the design doc that helped guide me through the project.
 
-* System dependencies
 
-* Configuration
+## Built With ⚡️
+Project is created with:
+* Ruby version: 3.1.2
+* Rails version: 7.0.4
+* React version: 18.2.0
 
-* Database creation
+Gems:
+* rack-cors
 
-* Database initialization
+React Libraries:
+* axios
+* uuidv4
 
-* How to run the test suite
+## Features 🎯
+* Import CSV with aiport data
+* Shareable public map
 
-* Services (job queues, cache servers, search engines, etc.)
+## Screenshots 📸
+![Screenshot](Screenshot29.png)
+![Screenshot](Screenshot30.png)
+![Screenshot](Screenshot31.png)
+![Screenshot](Screenshot32.png)
+![Screenshot](Screenshot33.png)
+![Screenshot](Screenshot34.png)
 
-* Deployment instructions
+## Setup ⚙️
+To clone and run this application, you'll need [Git](https://git-scm.com), [Ruby on Rails](https://www.tutorialspoint.com/ruby-on-rails/rails-installation.htm), and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
+```
+# Clone this repository
+$ git clone https://github.com/Nhendy12/flights.git
 
-* ...
+# Go into the repository
+$ cd flights
+```
+
+## Usage 🚂
+
+```bash
+#for Backend
+
+# to install all req'd dependencies
+$ bundle install
+# to make all database migrations
+$ rake db:migrate
+# start the local server (http://localhost:3000)
+$ rails s
+
+# for Frontend
+
+# cd into frontend directory
+$ cd flight-viewer  
+# Install dependencies
+$ npm install
+# Run the app
+$ npm start
+```
+
+## Final Thoughts/Things to tell Client 🔔
+I really enjoyed working on this project and I loved the pokemon aspect that added that personal touch!\
+It definitely helped me brush up on my React skills and I think in the future I will be adding more to this project!
+
+Possibly move to worker if files are too big
+
+
+Items I missed/would have done with more time:
+* Better form validation
+* Getting the forms to closer match the designs
+* Fixing inheritances, right now when you create or update a pokemon it just refreshes the page. I would have liked it to instead just rerender the list of pokemon
+* Add tests
+* Loading States
+* Empty States
+* demo
+* API docs
+* File structure/css organization
