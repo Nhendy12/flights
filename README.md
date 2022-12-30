@@ -13,6 +13,12 @@ A Fullstack Airport Viewer that allows a user to upload a CSV containing their f
 
 ## General Info 📝
 For simplicity, both the backend and front end will be contained in the same GitHub. If this were a larger project I would most definitely separate the Front and Backend.\
+Time Spent:
+* Design Doc/Planning: 1 hour
+* Design Doc/Planning: 1 hour
+* Design Doc/Planning: 1 hour
+* Design Doc/Planning: 1 hour
+
 \
 [Here is a link](DESIGN_DOC.pdf) to the design doc that helped guide me through the project.
 
@@ -38,6 +44,7 @@ React Libraries:
 
 ![Screenshot](Screenshot(31).png)
 * Base page
+
 ![Screenshot](Screenshot(32).png)
 * After you upload a csv successfully this text will appear with a link to view your map
 
